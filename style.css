@@ -150,6 +150,7 @@ span{
 .service h3{
     margin-bottom: 30px;
 }
+
 .service p{
     margin-bottom: 30px;
 }
@@ -167,6 +168,24 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
+.class{
+    background-color:   #F9F9F9;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 120px 0px 120px 0px;
+}
+
+.form-div{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
 footer{
     background-color: black;
     padding: 100px;
@@ -178,6 +197,53 @@ footer{
 }
 .moo{
     width: 30%;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin: 5px;
+  
+  }
+
+input{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: #0355ed solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: large;
+}
+textarea{
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
+}
+select{
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
+}
+.class h2{
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+   
+}
+.sponsor h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+.class h4{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 @media (max-width: 768px) {
     nav .button1{
@@ -260,6 +326,31 @@ footer{
             display: flex;
             flex-direction: column;
         }
-   
-    
+        .class{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         
+        }
+        .form-div{
+            width: 80%;
+        }
+        .class h2{
+            align-items: center;
+            text-align: center;
+        }
+        .class button{
+            width: 100%;
+        }
+        
+        
+       
+        input,select{
+            padding: 10px 10px;
+            border: #0a5df8ed solid;
+            border-radius: 5px;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            
+          }  
 }
